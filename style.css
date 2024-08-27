@@ -15,6 +15,37 @@ p{
 	width: 50%;
 }
 
-#donut {
-	width: 600px;
+.image{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	border: groove;
+}
+
+.image:hover {
+	border-color: orange;
+}
+
+.buttonDisplay{
+	display=none;
+}
+
+#strongMessage {
+	color: red;
+	border: 1px dashed black;
+	text-align: center;
+}
+
+#textField {
+	text-align: center;
+	color: purple;
+	size: 50px;
+}
+
+#imageField {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 }
